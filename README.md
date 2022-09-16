@@ -1,4 +1,4 @@
-![logo nlw eSport](./.git/esport.webp) 
+![logo nlw eSport](./esport.webp) 
 
 ## deploy 
 

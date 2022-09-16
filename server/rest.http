@@ -1,3 +1,23 @@
-GET http://localhost:3333/
+/* listgamers */
+GET http://localhost:3333/games
 Accept: application/json
+
+GET http://localhost:3333/games/3928e873-0963-4961-a2a4-b48d0751646f/ads
+Accept: application/json
+
+GET http://localhost:3333/ads/8291f6eb-4f90-4906-9533-50b5e980c16b/discord
+Accept: application/json
+
+POST http://localhost:3333/games/8291f6eb-4f90-4906-9533-50b5e980c16b/ads
+Content-Type: application/json
+{
+   "name": "eduardo",
+   "yearsPlaying" : 2,
+   "discord": "eduardo teq",
+   "weekDays": [0,4,5],
+   "hourStart": "12:00",
+   "hourEnd": "13:20",
+   "useVoiceChannel": true,
+}
+
 
